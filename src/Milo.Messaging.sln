@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milo.Messaging", "Milo.Messaging\Milo.Messaging.csproj", "{BE597449-9675-7689-A0EB-81A3E4A62E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milo.Messaging.WPF", "Milo.Messaging.WPF\Milo.Messaging.WPF.csproj", "{9321C8DE-1DC5-46AF-8FFB-840D6FF6FE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milo.Messaging.MAUI", "Milo.Messaging.MAUI\Milo.Messaging.MAUI.csproj", "{FBE11D3F-0AB7-4ABD-A9E7-53E603C1E2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milo.Core", "..\..\Milo.Core\src\Milo.Core\Milo.Core.csproj", "{008F5D96-4BF2-0663-E2C6-ED420224A51E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE597449-9675-7689-A0EB-81A3E4A62E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE597449-9675-7689-A0EB-81A3E4A62E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE597449-9675-7689-A0EB-81A3E4A62E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE597449-9675-7689-A0EB-81A3E4A62E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9321C8DE-1DC5-46AF-8FFB-840D6FF6FE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9321C8DE-1DC5-46AF-8FFB-840D6FF6FE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9321C8DE-1DC5-46AF-8FFB-840D6FF6FE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9321C8DE-1DC5-46AF-8FFB-840D6FF6FE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBE11D3F-0AB7-4ABD-A9E7-53E603C1E2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE11D3F-0AB7-4ABD-A9E7-53E603C1E2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE11D3F-0AB7-4ABD-A9E7-53E603C1E2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE11D3F-0AB7-4ABD-A9E7-53E603C1E2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{008F5D96-4BF2-0663-E2C6-ED420224A51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008F5D96-4BF2-0663-E2C6-ED420224A51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008F5D96-4BF2-0663-E2C6-ED420224A51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008F5D96-4BF2-0663-E2C6-ED420224A51E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3003349-4997-49B8-98AC-3F890162D43E}
+	EndGlobalSection
+EndGlobal
