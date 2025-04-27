@@ -7,4 +7,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Milo.Core\src\Milo.Core\Milo.Core.csproj" />
+  </ItemGroup>
+
 </Project>
